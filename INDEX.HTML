@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <HEAD>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <title>DOUMMAR WEB @2</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    </HEAD>
+
+    <body>
+        <div class="hero-header">
+            <div class="wrapper">
+                <header>
+                    <div class="logo">
+                        <i class="fa-solid fa-a"></i>
+                        <div class="logo-text">Doummar Alzahabi</div>
+
+                    </div>
+                    <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+
+                    </ul>
+                </nav>
+                </header>
+                <div class="container">
+                    <div class="hero-pic">
+                        <img src="profile.jpg" alt="profile pic">
+                    </div>
+                    <div class="hero-text">
+                        <h5> HI I'm <span class="">Front End developer </span></h5>
+                        <h1> Doummar Alzahabi </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Illum non ad magni, minus odit fugiat consequuntur
+                             placeat! Nobis iure, aspernatur voluptates 
+                             qui dolores porro quaerat sequi. Reprehenderit aliquam ipsum eius?</p>
+                             <div class="btn-group">
+                                <a href="#" class="btn active">DOWNLOAD CV</a>
+                                <a href="#" class="btn">Contact</a>
+                             </div>
+
+                             <div class="social">
+                                <a href="#"></a><i class="fa-brands fa-facebook"></i>
+                                <a href="#"></a><i class="fa-brands fa-linkedin"></i>
+                                <a href="#"></a><i class="fa-brands fa-instagram"></i>
+                                <a href="#"></a><i class="fa-brands fa-dribbble"></i>
+                                <a href="#"></a><i class="fa-brands fa-pintrest"></i>
+                             </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var togglebtn=document.querySelector(".togglebtn");
+            var nav=document.querySelector(".navlinks");
+            var links=document.querySelector(".navlinks li");
+            togglebtn.addEventListener("click",function(){
+              this.classList.toggle("click");
+              nav.classList.toggle("open");
+            })
+
+            
+        </script>
+    </body>
+</html>
